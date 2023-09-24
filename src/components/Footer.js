@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
+import {BsFacebook,BsGithub,BsYoutube,BsInstagram} from 'react-icons/bs';
 const Footer = () => {
   return <>
     <footer className="py-4">
@@ -27,8 +28,24 @@ const Footer = () => {
         <div className="row">
           <div className="col-4">
             <h4 className="text-white mb-4">Contact Us</h4>
-            <div className="text-white fs-5">
+            <div className="text-white fs-6">
               <address>Hno: 254 Spring Valley, <br/> Baraton, Kapsabet <br/> PinCode: 10300</address>
+              <a href="tel: +254 743827738" className="mt-3 d-block mb-1 text-white"> +254743827738</a>
+              <a href="mailto:mwangileny18@gmail.com" className="mt-2 d-block mb-0 text-white">mwangileny18@gmail.com</a>
+              <div className="social icons d-flex align-items-center gap-30 mt-4">
+                <a className="text-white" href="">
+                  <BsFacebook className='fs-4' />
+                </a>
+                <a className="text-white"  href="">
+                  <BsGithub className='fs-4'/>
+                </a>
+                <a className="text-white" href="">
+                  <BsYoutube className='fs-4'/>
+                </a>
+                <a className="text-white" href="">
+                  <BsInstagram className='fs-4'/>
+                </a>
+              </div>
             </div>
           </div>
           <div className="col-3">
