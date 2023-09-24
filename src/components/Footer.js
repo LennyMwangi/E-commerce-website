@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom';
 const Footer = () => {
   return <>
     <footer className="py-4">
@@ -22,7 +22,45 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-    <footer className="py-3"></footer>
+    <footer className="py-4">
+      <div className="container-xxl">
+        <div className="row">
+          <div className="col-4">
+            <h4 className="text-white mb-4">Contact Us</h4>
+            <div className="text-white fs-5">
+              <address>Hno: 254 Spring Valley, <br/> Baraton, Kapsabet <br/> PinCode: 10300</address>
+            </div>
+          </div>
+          <div className="col-3">
+          <h4 className="text-white mb-4">Information</h4>
+          <div className="footer-link d-flex flex-column">
+            <Link className="text-white py-2 mb-1">Privacy Policy</Link>
+            <Link className="text-white py-2 mb-1">Refund Policy</Link>
+            <Link className="text-white py-2 mb-1">Shipping Policy</Link>
+            <Link className="text-white py-2 mb-1">Terms & Conditions</Link>
+            <Link className="text-white py-2 mb-1">Blogs</Link>
+          </div>
+          </div>
+          <div className="col-3">
+          <h4 className="text-white mb-4">Account</h4>
+          <div className="footer-link d-flex flex-column">
+            <Link className="text-white py-2 mb-1">About Us</Link>
+            <Link className="text-white py-2 mb-1">Faq</Link>
+            <Link className="text-white py-2 mb-1">Contact</Link>
+          </div>
+          </div>
+          <div className="col-2">
+          <h4 className="text-white mb-4">Quick Links</h4>
+          <div className="footer-link d-flex flex-column">
+            <Link className="text-white py-2 mb-1">Shipping and delivery</Link>
+            <Link className="text-white py-2 mb-1">How to Order?</Link>
+            <Link className="text-white py-2 mb-1">Return Policy</Link>
+            <Link className="text-white py-2 mb-1">Advertise with Mwana</Link>
+          </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <footer className="py-4">
       <div className="container-xxl">
         <div className="row">
