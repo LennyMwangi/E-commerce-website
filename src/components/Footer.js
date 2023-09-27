@@ -31,7 +31,7 @@ const Footer = () => {
             <div className="text-white fs-6">
               <address>Hno: 254 Spring Valley, <br/> Baraton, Kapsabet <br/> PinCode: 10300</address>
               <a href="tel: +254 743827738" className="mt-3 d-block mb-1 text-white"> +254743827738</a>
-              <a href="mailto:mwangileny18@gmail.com" className="mt-2 d-block mb-0 text-white">mwangileny18@gmail.com</a>
+              <a href="mailto:peterisaac174@gmail.com" className="mt-2 d-block mb-0 text-white">mwangileny18@gmail.com</a>
               <div className="social icons d-flex align-items-center gap-30 mt-4">
                 <a className="text-white" href="">
                   <BsFacebook className='fs-4' />
